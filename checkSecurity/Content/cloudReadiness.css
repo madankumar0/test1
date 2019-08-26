@@ -1,0 +1,78 @@
+/*basic reset*/
+* {margin: 0;padding: 0;}
+html {height: 100%;}
+body {font-family: 'Open Sans', sans-serif; color:#fff;overflow-x: hidden; background:url('../images/bodybackground.png'); background-repeat:repeat;}
+/*common css*/
+a:hover, a:visited,a:focus{text-decoration:none;}
+.margin-left-s{margin-left:5px;}
+.absolute{position: absolute;}
+.orange{color:#fb8300;}
+.blue{color:#2f6892;}
+.text-shadow-blue{text-shadow: 2px 2px #e2e4e6;}
+.text-shadow-orange{text-shadow: 2px 2px #ead9c6;}
+.text-justify{text-align: justify;}
+.text-center{text-align:center;}
+.text-right{text-align:right;}
+.text-left{text-align:right;}
+.clearfix{clear:both;}
+.margin-top-s{margin-top:5px;}
+.margin-bottom-lrg{margin-bottom: 20px;}
+
+/*header css */
+.navbar-default{border-bottom: solid 2px white; border:0px;}
+.navbar-default .navbar-nav>li>a{color:#fff;font-size: 12px;font-weight: bold;}
+.navbar-default .navbar-brand{color:#fff; font-size:24px; margin-right:50px;}
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus{color:#fff}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{color:#fff;}
+.navbar{margin-bottom:0px; background-color:#fff; padding-top:10px;padding-bottom:10px;}
+.menubar{margin-top:35px;}
+.menubar span{padding:20px 30px; font-size:15px;}
+.menubar span a:hover{border-bottom: 2px solid #337ab7;padding-bottom: 2px;}
+.nav-brand{ text-shadow: 2px 2px #212121;}
+@media (min-width: 768px){.navbar {border-radius: 0px;}}
+.head-icon{padding-top:20px;padding-left:30px; display:inline-block;width:101px;vertical-align: top;}
+.trianle{vertical-align:top; display:inline-block; padding-top:30px; width:51px;}
+.titlehead{background-color:#ffefde; text-align:left;}
+.title{font-size:36px;padding-left:60px;display: inline-block;vertical-align: top;width:85%;margin-top: 50px;}
+.subhead{width:85%;font-size:28px;display: inline-block;font-family: 'Open Sans', sans-serif;padding-left:50px; padding-top:22px;}
+
+/*home page css*/
+.dropdown-menu{left:30px;margin:0px;}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover{background-color:#fff;}
+.outer{margin-top:50px;margin-bottom:100px;}
+.maincontent{margin-top:10px;margin-bottom:20px;text-align:left; font-size:16px;padding: 10px 15px;}
+.maincontent img{padding-left:30px;}
+
+.tab-category-container-main .tab-content-box {background-color: #000000;margin-top:20px;}
+.slideup-popup {background: rgba(0,0,0,0.6) none repeat scroll 0 0;color: #fff;opacity: 1;}
+.tab-content-box-content {left: 0;padding: 10px 20px;    position: absolute;height: 100%;}
+.tab-content-box {margin: 0px 0px 25px 0px;padding: 0px;position: relative;cursor: pointer;overflow: hidden;	}
+.tab-content-box-content h3 {color: #fff; height: 60px;font-size: 22px; margin: 0px 0px 10px 0px;}
+.tab-content-box-content p {color: #fff;font-size: 16px;}
+.tab-content-box-content .discrip {color: #fff;}
+.tab-category-container-main .tab-content-box img {opacity: 0.6;}
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {display: block;max-width: 100%;height: auto;}
+.tab-category-container ul li.active {background: #125fa9;color: #fff;}
+.tab-category-container {margin: 40px 0 20px;padding: 0px;}
+.tab-category-container ul li {
+	background: #fff;float: left;margin: 0;padding: 0; text-align: center; width: 278px;color: #125fa9;
+}
+.tab-category-container ul li.active a.solutions {
+	background: url(../images/solution-icon-hover.png) no-repeat scroll 70px 3px;color: #fff;
+}
+h1{margin-top:100px;font-size:42px;}
+
+
+/*footer css*/
+footer {
+	margin: 0px;clear: both;bottom: 0;position: fixed;width: 100%;
+	background-color: #f6f2f3;box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.3);
+}
+.content{margin-top: 20px;margin-bottom: 20px;text-align: left;}
+.copyright {color: #333;}
+.copyright a{color: #333;font-size: 12px;padding: 0px 10px;text-decoration: none;}
